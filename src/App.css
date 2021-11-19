@@ -1,0 +1,146 @@
+
+
+
+
+#showcase img {
+	width: 45%;
+	border-radius: 30px;
+	margin: 10px;
+	opacity: 0.5;
+}
+#showcase img:hover{
+	transform: scale(1.1);
+ 	opacity: 1;}
+hr {
+	border: 6px solid #45015d;
+	border-radius: 15px;
+	margin: 20px;
+}
+.members {
+	display: inline-block;
+	
+	width: 20%;
+	border-radius: 5px;
+	text-align: left;
+	margin-right: 30px;
+
+}
+.members img {
+	width: 100%; 
+	border-radius: 10px;
+	margin-bottom: 10px;
+
+}
+#dessiners {
+	text-align: center;
+}
+.members .otstyp {
+	display: inline-block;
+	border-radius: 5px;
+	margin-top: 5px;
+	background-color: lightgrey;
+
+}
+.pakage {
+	display: inline-block;
+	background-color: whitesmoke;
+	border-radius: 15px;
+	width: 30%;
+
+
+}
+.pakage li {
+	list-style-type: none;
+	padding: 15px;
+	border-bottom: 1px solid silver;
+	border-radius: 15px;
+}
+.pakage ul {
+	padding: 0 0;
+	margin: 0 0;
+}
+.pakage .basic {
+	background-color: #45015d;
+	color: white;
+	border-radius: 15px;
+	padding: 30px;
+	font-size: 30px;
+
+}
+.pakage a {
+	text-decoration: none;
+	display: inline-block;
+	background-color: white;
+	color: #45015d;
+	border-radius: 20px;
+	padding: 15px;
+}
+.Pchena {
+	font-size: 30px;
+}
+.pakage .pro {
+	background-color: red;
+	color: white;
+	border-radius: 15px;
+	padding: 30px;
+	font-size: 30px;
+}
+.KnopkaPro a {
+	text-decoration: none;
+	display: inline-block;
+	background-color: red;
+	color: white;
+	border-radius: 20px;
+	padding: 15px;
+}
+.adress {
+	/*background-image: url({address});*/
+	background-repeat: no-repeat;
+	text-align: left;
+	padding-left: 30px;
+}
+.nomer {
+	/*background-image: url(phone.png);*/
+	background-repeat: no-repeat;
+	text-align: left;
+	padding-left: 30px;
+}
+.pochta {
+	/*background-image: url(mail.png);*/
+	background-repeat: no-repeat;
+	text-align: left;
+	padding-left: 30px;
+}
+#contact input {
+	width: 100%;
+}
+#contact .baton {
+	width: 500px;
+	height: 50px;
+	font-size: 20px;
+	color: white;
+	background-color: black;
+}
+#menushka {
+	display: inline-block;
+	position: fixed;
+	width: 150px;
+	color: white;
+	background-color: #45015d; 
+	padding: 10px 20px;
+	top: 0;
+	left: 0;
+	border-radius: 30px;
+}
+#menushka a {
+	display: inline-block;
+	box-sizing: border-box;
+	text-decoration: none;
+	color: inherit;
+	width: 100%;
+	padding: 8px 16px;
+}
+#all {
+	width: 80%;
+	margin-left: 20%;
+}
